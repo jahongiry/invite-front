@@ -1,0 +1,186 @@
+.cardFilling {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1.8fr;
+  height: 90vh;
+}
+
+.leftIcon {
+  float: left;
+  margin-right: 0;
+  margin-left: 6rem;
+  margin-top: 0.08rem;
+}
+
+.cardMoreDesign {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.cardBox {
+  margin-right: 13rem;
+  margin-top: 5rem;
+}
+
+.image {
+  width: 55%;
+  border-radius: 5px;
+  border: 1.5px solid rgba(50, 50, 93, 0.25);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.formBox {
+  -webkit-box-shadow: -8px 3px 10px -6px rgb(199, 199, 199);
+  -moz-box-shadow: -8px 3px 10px -6px rgb(199, 199, 199);
+  box-shadow: -8px 3px 10px -6px rgb(199, 199, 199);
+  margin-bottom: -1rem;
+}
+
+.details {
+  padding: 0 2rem;
+  text-align: start;
+  margin-top: 15rem;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+}
+
+.kuyovInput {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 0.3rem;
+  outline: none;
+}
+
+.kuyovInput::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.kelinInput {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 0;
+  outline: none;
+}
+
+.kelinInput::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.and {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.form {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.phoneInput {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 0.3rem;
+  grid-column: 1/4;
+  outline: none;
+}
+
+.phoneInput::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.nextButton {
+  border: none;
+  background-color: rgb(27, 181, 188);
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  grid-column: 1/4;
+}
+
+.buttonDownload {
+  position: absolute;
+  top: 100px;
+  right: 450px;
+  background-color: rgb(28, 180, 188);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.buttonDownload:hover {
+  transition: 0.8s;
+  background-color: rgb(21, 149, 156);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardMoreDesign2 {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  text-align: start;
+}
+
+@media (max-width: 1023px) {
+  .buttonDownload {
+    position: static;
+    margin-bottom: 3rem;
+    margin-top: -5rem;
+  }
+
+  .cardFilling {
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  .leftIcon {
+    float: left;
+    margin-right: 0;
+    margin-left: 1rem;
+    margin-top: 0.08rem;
+  }
+
+  .cardMoreDesign {
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    text-align: start;
+  }
+
+  .cardMoreDesign2 {
+    display: none;
+  }
+
+  .cardBox {
+    order: 2;
+  }
+  .formBox {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: -1rem;
+  }
+
+  .details {
+    margin-top: -5rem;
+  }
+
+  .cardBox {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .image {
+    width: 85%;
+    border-radius: 5px;
+    border: 1.5px solid rgba(50, 50, 93, 0.25);
+  }
+}

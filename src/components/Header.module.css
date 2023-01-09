@@ -1,0 +1,134 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  overflow: hidden;
+}
+
+.container2 {
+  background: url('/src/img/wedding3.jpg') no-repeat 90% 50%;
+  min-height: 100%;
+  background-size: cover;
+  clip-path: polygon(13% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.container1 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.phoneInput {
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  text-indent: 5px;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+
+.phoneInput:hover,
+.nameInput:hover {
+  box-shadow: 0 0 5pt 0.5pt #919191;
+}
+.phoneInput[type='text']:focus,
+.nameInput[type='text']:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+  outline-width: 0px;
+}
+
+.nameInput {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  outline: none;
+  text-indent: 5px;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+
+.headingText {
+  font-size: 2rem;
+  text-shadow: -7px 3px 8px rgba(0, 0, 0, 0.38);
+}
+
+.headingText2 {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.685);
+  font-size: 1.2rem;
+  text-shadow: -7px 3px 8px rgba(0, 0, 0, 0.164);
+}
+
+.submitInput {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  background-color: rgb(28, 180, 188);
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+  box-shadow: 0 0 5pt 0.5pt #a6a6a6;
+}
+
+.submitInput:hover {
+  background-color: rgb(23, 142, 148);
+}
+
+@media (max-width: 1023px) {
+  .headingText2 {
+    margin-bottom: -2rem;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    overflow: hidden;
+  }
+  .container2 {
+    order: -1;
+    background: url('/src/img/wedding3.jpg') no-repeat 90% 50%;
+    height: 15rem;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 0% 100%);
+  }
+  .container1 {
+    padding-top: 0.2rem;
+    padding-bottom: 7rem;
+  }
+
+  .phoneInput {
+    width: 80%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .nameInput {
+    border-radius: 10px;
+    width: 80%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .submitInput {
+    margin: 0;
+    margin-top: 1rem;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

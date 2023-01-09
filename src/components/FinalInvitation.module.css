@@ -1,0 +1,43 @@
+.ortga {
+  text-align: start;
+  display: flex;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.icon {
+  margin-top: 1.3rem;
+  margin-left: 1.2rem;
+  margin-right: 0.2rem;
+}
+
+.details {
+  color: rgb(47, 47, 47);
+  font-size: 2rem;
+  text-shadow: -7px 3px 8px rgba(0, 0, 0, 0.38);
+  padding: 0 2rem;
+  text-align: start;
+  margin-top: 15rem;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+}
+
+.loader {
+  margin-left: 10rem;
+}
+
+.tayyorlanmoqda {
+  text-align: center;
+}
+
+@media (max-width: 1023px) {
+  .details {
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 2rem;
+  }
+
+  .loader {
+    margin-left: auto;
+  }
+}

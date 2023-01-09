@@ -1,0 +1,117 @@
+.typesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 30%;
+  gap: 5rem;
+}
+
+.wedding {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.6s ease-in-out;
+}
+
+.wedding2 {
+  color: rgb(30, 179, 188);
+  border-radius: 20px;
+  border: 1px solid rgb(30, 179, 188);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.6s ease-in-out;
+}
+
+.wedding2 h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.xIcon {
+  font-size: 3rem;
+}
+
+.xContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.imageWedding2 {
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.imageBirthday2 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  margin-left: 8rem;
+}
+
+.wedding:hover,
+.wedding:active {
+  color: rgb(30, 179, 188);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.6s;
+}
+
+.wedding h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.birthday {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.6s ease-in-out;
+}
+
+.birthday2 {
+  color: rgb(30, 179, 188);
+  border-radius: 20px;
+  border: 1px solid rgb(30, 179, 188);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.6s ease-in-out;
+}
+.birthday h3 {
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.birthday:hover,
+.birthday:active {
+  color: rgb(30, 179, 188);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.6s;
+}
+
+.imageWedding {
+  margin-top: 1rem;
+}
+
+.imageBirthday {
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 1023px) {
+  .typesContainer {
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 1rem;
+    gap: 1rem;
+  }
+  .imageWedding2 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .xIcon {
+    font-size: 2rem;
+  }
+
+  .imageBirthday2 {
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    margin-left: 2rem;
+  }
+}

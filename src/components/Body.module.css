@@ -1,0 +1,18 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  justify-items: center;
+  gap: 4rem;
+  margin: 2rem 8rem;
+  align-items: center;
+}
+
+@media (max-width: 1023px) {
+  .cards {
+    grid-template-columns: 1fr;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,96 @@
+.details {
+  padding: 0 2rem;
+  text-align: start;
+  margin-top: 12rem;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+}
+
+.form {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.manzil {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 5px;
+  outline: none;
+}
+
+.manzil::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.and {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.phoneInput {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 0.3rem;
+  grid-column: 1/2;
+  outline: none;
+}
+
+.phoneInput::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.nextButton {
+  border: none;
+  background-color: rgb(27, 181, 188);
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  grid-column: 1/4;
+}
+
+.datePicking {
+  border: none;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 0.3rem;
+  outline: none;
+  width: 98%;
+}
+
+.datePicking::placeholder {
+  font-weight: 500;
+  color: rgb(188, 188, 188);
+}
+
+.ortga {
+  text-align: start;
+  display: flex;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.icon {
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1023px) {
+  .details {
+    padding: 0 2rem;
+    text-align: start;
+    margin-top: 0;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+  }
+  .form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}

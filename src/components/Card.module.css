@@ -1,0 +1,62 @@
+.card {
+  /* width: 10rem; */
+  background-color: rgb(248, 248, 248);
+  transition: 0.6s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardButton {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  margin-top: 8rem;
+  margin-left: -14.5rem;
+  background-color: rgb(23, 199, 205);
+  padding: 1rem 3%;
+  border-radius: 8px;
+  border: none;
+  transition: 0.6s;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.card :hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.6s;
+}
+.cardButton:hover {
+  background-color: rgb(26, 169, 174);
+}
+
+.card:hover .cardButton {
+  opacity: 1;
+}
+
+.cardButton:hover {
+  opacity: 1;
+}
+
+.cardButton :active ~ .cardButton {
+  opacity: 1;
+}
+
+.cardImage {
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+@media (max-width: 1023px) {
+  .cardButton {
+    margin-left: -13rem;
+    width: 29%;
+  }
+  .card:hover ~ .cardButton {
+    width: 56%;
+  }
+  .cardButton :active ~ .cardButton {
+    width: 56%;
+  }
+  .cardButton:hover {
+    width: 56%;
+  }
+}
