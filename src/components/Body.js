@@ -1,11 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import classes from './Body.module.css';
 import Card from './Card';
-import image1 from '../img/1.png';
-import image2 from '../img/2.png';
 import { fetchImages } from '../store/imageSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import userEvent from '@testing-library/user-event';
 import Types from './Types';
 import { birthdayForm, weddingForm } from '../store/typeSlice';
 
@@ -15,10 +12,10 @@ function Body() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchImages());
-  }, []);
+  });
   return (
     <div>
-      <h2>Chiroyli, onson va qulay</h2>
+      <h2>Chiroyli, oson va qulay</h2>
       <Types />
       <p>Shunchaki yoqtirganingizni tanlang va malumotlar kiriting!</p>
       {images.loading && <div>Loading...</div>}

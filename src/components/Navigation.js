@@ -12,7 +12,11 @@ function Navigation() {
   return (
     <div className={classes.NavContainer}>
       <Link className={classes.logo} to='/'>
-        <img className={classes.logoImage} src={logo}></img>
+        <img
+          className={classes.logoImage}
+          src={logo}
+          alt='taklifnoma logosi'
+        ></img>
       </Link>
       <Link className={classes.login} to='/' onClick={removeLocal}>
         <div className={classes.loginIcon}>

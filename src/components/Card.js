@@ -8,7 +8,11 @@ export default function Card(props) {
   const dispatch = useDispatch();
   return (
     <div className={classes.card}>
-      <img className={classes.cardImage} src={props.image}></img>
+      <img
+        alt='taklifnoma toy'
+        className={classes.cardImage}
+        src={props.image}
+      ></img>
       <Link to={'/cardfilling'}>
         <button
           onClick={() => {
