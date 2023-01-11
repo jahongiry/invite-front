@@ -9,9 +9,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Navigation />
-        <Routes>
+        <Routes basename='/'>
           <Route index element={<Header />} />
           <Route path='/cardfilling' element={<CardFilling />} />
         </Routes>
