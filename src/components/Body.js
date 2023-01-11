@@ -12,7 +12,7 @@ function Body() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchImages());
-  });
+  }, []);
   return (
     <div>
       <h2>Chiroyli, oson va qulay</h2>
