@@ -108,6 +108,7 @@
     width: 80%;
     margin: 0;
     margin-top: 1rem;
+    -webkit-appearance: none;
   }
 
   .nameInput {
@@ -115,6 +116,7 @@
     width: 80%;
     margin: 0;
     margin-top: 1rem;
+    -webkit-appearance: none;
   }
 
   .submitInput {
