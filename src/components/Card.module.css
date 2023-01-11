@@ -51,12 +51,12 @@
     width: 29%;
   }
   .card:hover ~ .cardButton {
-    width: 56%;
+    width: 29%;
   }
   .cardButton :active ~ .cardButton {
-    width: 56%;
+    width: 29%;
   }
   .cardButton:hover {
-    width: 56%;
+    width: 29%;
   }
 }
