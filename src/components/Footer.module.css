@@ -3,3 +3,10 @@
   padding: 1rem;
   color: rgb(108, 108, 108);
 }
+
+@media (max-width: 1023px) {
+  .footer {
+    font-size: 0.5rem;
+    padding: 0.5rem;
+  }
+}

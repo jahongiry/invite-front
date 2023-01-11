@@ -25,7 +25,6 @@
   border: none;
   outline: none;
   text-indent: 5px;
-  -webkit-transition: 1s; /* Safari */
   transition: 1s;
   box-shadow: 0 0 5pt 0.5pt #d3d3d3;
 }
@@ -48,7 +47,6 @@
   border: none;
   outline: none;
   text-indent: 5px;
-  -webkit-transition: 1s; /* Safari */
   transition: 1s;
   box-shadow: 0 0 5pt 0.5pt #d3d3d3;
 }
@@ -75,7 +73,6 @@
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  -webkit-transition: 1s; /* Safari */
   transition: 1s;
   box-shadow: 0 0 5pt 0.5pt #a6a6a6;
 }

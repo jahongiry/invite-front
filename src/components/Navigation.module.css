@@ -22,7 +22,6 @@
 
 .logoImage {
   width: 20%;
-  border-radius: 50%;
 }
 
 @media (max-width: 1023px) {
@@ -34,8 +33,7 @@
   }
 
   .logoImage {
-    width: 25%;
-    border-radius: 50%;
-    margin-left: -10rem;
+    width: 23%;
+    margin-left: -8rem;
   }
 }
